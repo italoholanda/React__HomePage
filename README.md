@@ -1,4 +1,4 @@
-# Landing Page
+# Home Page
 
 This project is a "quick coding" of a marketing agency's landing page using React and Sass
 

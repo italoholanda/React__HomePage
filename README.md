@@ -11,7 +11,7 @@ This project is a "quick coding" of a marketing agency's landing page using Reac
 
 ## Deploy
 
-**Url**: http://ominik.surge.sh/
+**Url**: http://omnik.surge.sh/
 
 Thanks!
 

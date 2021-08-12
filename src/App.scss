@@ -1,0 +1,38 @@
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+}
+a,
+a:visited {
+  color: #fff;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  background: #191c26;
+  color: #fff;
+
+  .container {
+    max-width: 70rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+  }
+}

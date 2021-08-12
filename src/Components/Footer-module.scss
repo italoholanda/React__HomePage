@@ -1,0 +1,51 @@
+footer.footer {
+  margin-top: -36px;
+  padding: 72px 0;
+  background: rgba(0, 0, 0, 0.6);
+  > div.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    > div {
+      max-width: 300px;
+      min-width: 220px;
+      margin-top: 36px;
+    }
+    .logo {
+      width: 200px;
+    }
+    h2 {
+      margin-bottom: 18px;
+      font-size: 1.6em;
+      &::after {
+        content: "";
+        display: block;
+        height: 3px;
+        width: 36px;
+        background: #dd4142;
+        margin: 18px 0;
+        border-radius: 3px;
+      }
+    }
+    li {
+      margin: 9px 0;
+    }
+    input {
+      margin: 18px 0 9px 0;
+      max-width: 200px;
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  footer.footer .container,
+  footer.footer .container > div {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    h2::after{
+        margin: 18px auto;
+    }
+  }
+}

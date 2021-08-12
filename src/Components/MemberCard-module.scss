@@ -1,0 +1,26 @@
+.member-card{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+  width: 280px;
+  margin: 10px;
+  border-radius: 8px;
+  border: rgba(255, 255, 255, 0.3) 1px solid;
+  transition: all, 0.6s;
+  &:hover{
+    border: #DD4142 1px solid;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  p {
+    margin-top: 4px;
+    color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+@media (max-width: 740px) {
+  .member-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

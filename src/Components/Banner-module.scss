@@ -1,0 +1,51 @@
+// * {
+//   border: #ddd 1px solid;
+// }
+
+aside {
+  background: url("../Assets/Img/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 580px;
+  display: flex;
+  align-items: center;
+  margin-top: 72px;
+  margin-bottom: 72px;
+
+  > div {
+    display: flex;
+    width: 100%;
+    max-width: 70rem;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  span {
+    font-family: "Poppins", Impact, Haettenschweiler, "Arial Narrow Bold",
+      sans-serif;
+    font-size: 2.5em;
+    line-height: 1;
+  }
+
+  p {
+    margin: 14px 0;
+    line-height: 1.5;
+  }
+
+  .illustration {
+    width: 400px;
+    margin: 18px;
+  }
+}
+
+@media (max-width: 980px) {
+  aside > div {
+    justify-content: center;
+    .illustration {
+        width: 50%;
+        min-width: 260px;
+      }
+  }
+}
